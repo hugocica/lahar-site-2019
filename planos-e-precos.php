@@ -48,12 +48,13 @@
               <div class="div-period">
                   <div class="w-form" data-ix="show-on-scroll">
                       <form id="email-form-2" name="email-form-2" data-name="Email Form 2" class="form-switch">
-                          <div id="paymentPeriodmonthButton" class="radio-button-field active w-radio">
+                          <div id="paymentPeriodmonthButton" class="radio-button-field active w-radio" style="padding-left: 5px">
                               <input onchange="changePaymentPeriod(event)" data-value="month" checked="checked" type="radio" id="radio" name="radio" value="Radio" data-name="Radio" class="radio-button w-radio-input">
-                              <label for="radio" class="w-form-label">Mensal</label>
+                              <label for="radio" class="w-form-label" style="flex-direction: column;justify-content: center;">mensal <span style="font-size: 10px;display: block;line-height: 7px;">Sem desconto</span></label>
                           </div>
-                          <div id="paymentPeriodyearButton" class="radio-button-field w-radio">
-                              <input onchange="changePaymentPeriod(event)" data-value="year" type="radio" id="radio-2" name="radio" value="Radio" data-name="Radio 2" class="radio-button w-radio-input"><label for="radio-2" class="w-form-label">Anual</label>
+                          <div id="paymentPeriodyearButton" class="radio-button-field w-radio" style="padding-left: 5px">
+                              <input onchange="changePaymentPeriod(event)" data-value="year" type="radio" id="radio-2" name="radio" value="Radio" data-name="Radio 2" class="radio-button w-radio-input">
+                              <label for="radio-2" class="w-form-label" style="flex-direction: column;justify-content: center;">anual <span style="font-size: 10px;display: block;line-height: 7px;">Economize 2 meses</span></label>
                           </div>
                       </form>
                       <div class="w-form-done">

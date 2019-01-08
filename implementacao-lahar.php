@@ -190,6 +190,7 @@
                                                     <div class="divs-icones">
                                                         <div class="circle-yellow"><img src="assets/images/001-startup.svg" width="50"></div>
                                                         <h5 class="h5-18">Startup</h5>
+                                                        <div class="spacer"></div>
                                                         <div class="row w-row">
                                                             <div class="column-15 w-col w-col-2 w-col-tiny-2"><img src="assets/images/tick.svg" width="25"></div>
                                                             <div class="w-col w-col-10 w-col-tiny-10">
@@ -268,6 +269,7 @@
                                                     <div class="divs-icones">
                                                         <div class="circle-yellow"><img src="assets/images/001-startup.svg" width="50"></div>
                                                         <h5 class="h5-18">Startup</h5>
+                                                        <div class="spacer"></div>
                                                         <div class="row w-row">
                                                             <div class="column-15 w-col w-col-2 w-col-tiny-2"><img src="assets/images/tick.svg" width="25"></div>
                                                             <div class="w-col w-col-10 w-col-tiny-10">
@@ -346,6 +348,7 @@
                                                     <div class="divs-icones">
                                                         <div class="circle-yellow"><img src="assets/images/001-startup.svg" width="50"></div>
                                                         <h5 class="h5-18">Startup</h5>
+                                                        <div class="spacer"></div>
                                                         <div class="row w-row">
                                                             <div class="column-15 w-col w-col-2 w-col-tiny-2"><img src="assets/images/tick.svg" width="25"></div>
                                                             <div class="w-col w-col-10 w-col-tiny-10">
@@ -510,6 +513,7 @@
                                         <div class="divs-icones inline">
                                             <div class="circle-yellow"><img src="assets/images/001-startup.svg" width="50"></div>
                                             <h5 class="h5-18">Startup</h5>
+                                            <div class="spacer"></div>
                                             <div class="row w-row">
                                                 <div class="column-15 w-col w-col-2 w-col-tiny-2"><img src="assets/images/tick.svg" width="25"></div>
                                                 <div class="w-col w-col-10 w-col-tiny-10">

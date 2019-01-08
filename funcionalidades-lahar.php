@@ -93,7 +93,7 @@
                                             <div class="txtblocks-blue medium _15 line-padding">Por meio da LAHAR você poderá acompanhar a evolução de todas as palavras chave utilizadas no seu negócio e a relevância delas no seu tráfego orgânico.</div>
                                         </div>
                                     </div>
-                                    <div class="spacer _30"></div><a href="<?php echo base_url; ?>criar-conta" class="button-yellow left w-button" data-ix="show-on-scroll">EXPERIMENTE GRÁTIS <br>por 15 dias</a></div>
+                                    <div class="spacer _30"></div><a href="#experimente" class="button-yellow left w-button" data-ix="show-on-scroll">EXPERIMENTE GRÁTIS <br>por 15 dias</a></div>
                                     <div class="w-col w-col-7">
                                         <div data-animation="slide" data-duration="500" data-infinite="1" class="slider w-slider">
                                             <div class="w-slider-mask">
@@ -230,7 +230,7 @@
                                                                     <div class="txtblocks-blue medium _15 line-padding">Faça tudo em nosso software de Inbound Marketing sem a necessidade de um desenvolvedor ou designer.</div>
                                                                 </div>
                                                             </div>
-                                                            <div class="spacer _30"></div><a href="<?php echo base_url; ?>criar-conta" class="button-yellow left w-button" data-ix="show-on-scroll">EXPERIMENTE GRÁTIS<br>por 15 dias</a></div>
+                                                            <div class="spacer _30"></div><a href="#experimente" class="button-yellow left w-button" data-ix="show-on-scroll">EXPERIMENTE GRÁTIS<br>por 15 dias</a></div>
                                                             <div class="w-col w-col-7">
                                                                 <div data-animation="slide" data-duration="500" data-infinite="1" class="slider w-slider">
                                                                     <div class="w-slider-mask">
@@ -622,7 +622,7 @@
                                                                                                                                                     <div class="txtblocks-blue medium _15 line-padding">Nunc consequat ultrices metus. Vivamus at magna. Fusce lorem dui, auctor non</div>
                                                                                                                                                 </div>
                                                                                                                                             </div>
-                                                                                                                                            <div class="spacer _30"></div><a href="<?php echo base_url; ?>criar-conta" class="button-yellow left w-button" data-ix="show-on-scroll">EXPERIMENTE GRÁTIS</a></div>
+                                                                                                                                            <div class="spacer _30"></div><a href="#experimente" class="button-yellow left w-button" data-ix="show-on-scroll">EXPERIMENTE GRÁTIS</a></div>
                                                                                                                                             <div class="w-col w-col-7">
                                                                                                                                             <div data-animation="slide" data-duration="500" data-infinite="1" class="slider w-slider">
                                                                                                                                             <div class="w-slider-mask">
@@ -748,7 +748,7 @@
                                                                                                                                 <div class="txtblocks-blue medium _15 line-padding">Crie emails e construa o fluxo de automação uma única vez. Deixe o software trabalhar automaticamente por você, de acordo com o comportamento do lead.</div>
                                                                                                                             </div>
                                                                                                                         </div>
-                                                                                                                        <div class="spacer _30"></div><a href="<?php echo base_url; ?>criar-conta" class="button-yellow left w-button" data-ix="show-on-scroll">EXPERIMENTE GRÁTIS<br>por 15 dias</a></div>
+                                                                                                                        <div class="spacer _30"></div><a href="#experimente" class="button-yellow left w-button" data-ix="show-on-scroll">EXPERIMENTE GRÁTIS<br>por 15 dias</a></div>
                                                                                                                         <div class="w-col w-col-7">
                                                                                                                             <div data-animation="slide" data-duration="500" data-infinite="1" class="slider w-slider">
                                                                                                                                 <div class="w-slider-mask">
@@ -1073,7 +1073,7 @@
                                                                                                                                                                                                             <div class="txtblocks-blue medium _15 line-padding">Aumente a capacidade da sua empresa de oferecer as ofertas certas aos clientes certos. Estabeleça ações refinadas, com regras de negócio alinhadas com sua estratégia de marketing para segmentar os leads.</div>
                                                                                                                                                                                                         </div>
                                                                                                                                                                                                     </div>
-                                                                                                                                                                                                    <div class="spacer _30"></div><a href="<?php echo base_url; ?>criar-conta" class="button-yellow left w-button" data-ix="show-on-scroll">EXPERIMENTE GRÁTIS<br>por 15 dias</a></div>
+                                                                                                                                                                                                    <div class="spacer _30"></div><a href="#experimente" class="button-yellow left w-button" data-ix="show-on-scroll">EXPERIMENTE GRÁTIS<br>por 15 dias</a></div>
                                                                                                                                                                                                     <div class="w-col w-col-7">
                                                                                                                                                                                                         <div data-animation="slide" data-duration="500" data-infinite="1" class="slider w-slider">
                                                                                                                                                                                                             <div class="w-slider-mask">
@@ -1561,7 +1561,7 @@
                                                                                                                                                                                                                                                 <div class="txtblocks-blue medium _15 line-padding">Qualifique os seus leads com o objetivo de descobrir qual deles está pronto para uma abordagem comercial.</div>
                                                                                                                                                                                                                                             </div>
                                                                                                                                                                                                                                         </div>
-                                                                                                                                                                                                                                        <div class="spacer _30"></div><a href="<?php echo base_url; ?>criar-conta" class="button-yellow left w-button" data-ix="show-on-scroll">EXPERIMENTE GRÁTIS<br>por 15 dias</a></div>
+                                                                                                                                                                                                                                        <div class="spacer _30"></div><a href="#experimente" class="button-yellow left w-button" data-ix="show-on-scroll">EXPERIMENTE GRÁTIS<br>por 15 dias</a></div>
                                                                                                                                                                                                                                         <div class="w-col w-col-7">
                                                                                                                                                                                                                                             <div data-animation="slide" data-duration="500" data-infinite="1" class="slider w-slider">
                                                                                                                                                                                                                                                 <div class="w-slider-mask">
