@@ -132,7 +132,7 @@
                     <input type="text" class="field w-input" maxlength="256" name="integracoes_desejadas" data-name="Integrações desejadas" placeholder="Integrações desejadas" id="Integra-es-desejadas">
                     <a href="#" class="link-nav cta pad50 inline pad-25 w-button send-solicitacao" id="envia-email">ENVIAR SOLICITAÇÃO</a>
                     <div class="spacer"></div>
-                </form>       
+                </form>
                 <div class="form-resposta">
                     <label id="status-formulario"></label>
                 </div>
@@ -147,7 +147,7 @@
         <h2 class="h2" data-ix="show-on-scroll">Ainda tem dúvidas sobre como o software de automação de marketing da LAHAR pode ajudar a sua empresa? <br>Ligue para nós <a href="tel:(11)3230-1825" class="link-white">(11) 3230-1825</a> ou <a href="tel:(14)3010-3330" class="link-white">(14) 3010-3330</a></h2>
     </div>
 </div>
-<!-- <div class="section-numeros zeropad">
+<div class="section-numeros zeropad">
     <div class="w-container">
         <h1 class="h1 medium inverted">Conheça algumas histórias de sucesso</h1>
         <div class="spacer _50"></div>
@@ -176,9 +176,9 @@
             </div>
         </div>
         <div class="spacer _50"></div>
-        <a href="cases-de-marketing-digital.html" class="botoes-form dark-blue w-button" data-ix="show-on-scroll">VER TODAS</a>
+        <a href="<?php echo base_url; ?>historia-de-sucesso" class="botoes-form dark-blue w-button" data-ix="show-on-scroll">VER TODAS</a>
     </div>
-</div> -->
+</div>
 <div class="section-trio">
     <div class="section-cta _1"></div>
     <div id="experimente" class="section-cta _2">
@@ -235,8 +235,8 @@
             } else {
                 element.mask("(99) 9999-9999?9");
             }
-            // element.text = element.text().trim();   
-            // alert(element.text.length);         
+            // element.text = element.text().trim();
+            // alert(element.text.length);
         });
 
         jQuery("input.telefone-contato")
@@ -291,13 +291,13 @@
                     },
                     error: function( data ) {
                         $("#status-formulario").text("Ocorreu um erro inesperado. Por favor, tente novamente mais tarde.");
-                        $('#envia-email').show();                        
+                        $('#envia-email').show();
                     }
                 });
             } else {
-                $("#status-formulario").html("É necessário preencher corretamente todos os campos contendo asterisco(*).");                
+                $("#status-formulario").html("É necessário preencher corretamente todos os campos contendo asterisco(*).");
             }
-        });        
+        });
     });
     function normalizaLink(link, campo) {
           if ( link.indexOf('http://') == -1 && link.indexOf('https://') == -1 && link != "" ) {

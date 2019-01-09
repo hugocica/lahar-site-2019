@@ -9,6 +9,8 @@
 
     <?php include_once './includes/header.php'; ?>
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
 </head>
 
 <body>
@@ -72,7 +74,7 @@
                           <div class="parte-cima">
                               <h2 class="h2 small blue bold">BASIC</h2>
                               <div class="txtblock-20"><span class="rs">R$</span><span id="planPrice-basic" class="_58">229</span><span class="mes">/mês</span></div>
-                              <!-- <div class="txtblock-gray center"><span class="bolder">Contrato mínimo semestral</div> -->
+                              <div class="txtblock-gray center aviso-semestral"><span class="bolder">Contrato mínimo semestral</div>
                               <div style="display:none;" class="txtblock-gray monthEquivalent center"><span class="bolder">Cobrado anualmente<br></span>equivalente a R$<span id="equivalentPrice-month-basic">3.490,00</span>/ano</div>
                               <div class="spacer _30"></div>
                               <div class="div-line-planos w-clearfix"><img src="assets/images/checked.svg" width="15" class="check-green verde">
@@ -103,7 +105,7 @@
                                   <div class="txtblock-gray">Suporte via Email / Chat / Ticket</div>
                               </div>
                           </div>
-                          <!-- <button class="assinar-btn link-nav cta _100percent w-button">ASSINAR AGORA</button> -->
+                          <?php /* <button class="assinar-btn link-nav cta _100percent w-button">ASSINAR AGORA</button> */ ?>
                       </div>
                   </div>
                   <div class="column-zero-pad w-col w-col-3">
@@ -112,7 +114,7 @@
                               <div class="featured">MAIS CONTRATADO</div>
                               <h2 class="h2 small blue bold">Professional</h2>
                               <div class="txtblock-20"><span class="rs">R$</span><span id="planPrice-professional" class="_58">349</span><span class="mes">/mês</span></div>
-                              <!-- <div class="txtblock-gray center"><span class="bolder">Contrato mínimo semestral</div> -->
+                              <div class="txtblock-gray center aviso-semestral"><span class="bolder">Contrato mínimo semestral</div>
                               <div style="display:none;" class="txtblock-gray monthEquivalent center"><span class="bolder">Cobrado mensalmente<br></span>equivalente a R$<span id="equivalentPrice-month-professional">3.490,00</span>/ano</div>
                               <div class="spacer _30"></div>
                               <div class="div-line-planos w-clearfix"><img src="assets/images/checked.svg" width="15" class="check-green verde">
@@ -137,7 +139,7 @@
                                   <div class="txtblock-gray">Suporte via Email / Chat / Ticket</div>
                               </div>
                           </div>
-                          <!-- <button class="assinar-btn link-nav cta _100percent w-button">ASSINAR AGORA</button> -->
+                          <?php /* <button class="assinar-btn link-nav cta _100percent w-button">ASSINAR AGORA</button> */ ?>
                       </div>
                   </div>
                   <div class="column-zero-pad w-col w-col-3">
@@ -145,7 +147,7 @@
                           <div class="parte-cima">
                               <h2 class="h2 small blue bold">Enterprise</h2>
                               <div class="txtblock-20"><span class="rs">R$</span><span id="planPrice-enterprise" class="_58">979</span><span class="mes">/mês</span></div>
-                              <!-- <div class="txtblock-gray center"><span class="bolder">Contrato mínimo semestral</div> -->
+                              <div class="txtblock-gray center aviso-semestral"><span class="bolder">Contrato mínimo semestral</div>
                               <div style="display:none;" class="txtblock-gray monthEquivalent center"><span class="bolder">Cobrado mensalmente<br></span>equivalente a R$<span id="equivalentPrice-month-enterprise">3.490,00</span>/ano</div>
                               <div class="spacer _30"></div>
                               <div class="div-line-planos w-clearfix"><img src="assets/images/checked.svg" width="15" class="check-green verde">
@@ -173,7 +175,7 @@
                                   <div class="txtblock-gray">Suporte via Email / Chat / Ticket / Telefone</div>
                               </div>
                           </div>
-                          <!-- <button class="assinar-btn link-nav cta _100percent w-button">ASSINAR AGORA</button> -->
+                          <?php /* <button class="assinar-btn link-nav cta _100percent w-button">ASSINAR AGORA</button> */ ?>
                       </div>
                   </div>
                   <div class="column-zero-pad w-col w-col-3">
@@ -272,7 +274,7 @@
                   <div class="row-comparativo w-row" data-ix="show-on-scroll">
                       <div class="column-caracteristica w-col w-col-3 w-col-tiny-3">
                           <div class="txt-14 smaller">Termos monitorados nas mídias sociais</div>
-                          <div data-tooltip="No Twitter" class="fa"><strong></strong></div>
+                          <div data-toggle="tooltip" title="No Twitter" class="fa"><strong></strong></div>
                       </div>
                       <div class="w-col w-col-3 w-col-tiny-3">
                           <div class="_23">25</div>
@@ -337,7 +339,7 @@
                   <div class="row-comparativo w-row" data-ix="show-on-scroll">
                       <div class="column-caracteristica w-col w-col-3">
                           <div class="txt-14 smaller">Landing Pages</div>
-                          <div data-tooltip="Páginas de conversão" class="fa"><strong></strong></div>
+                          <div data-toggle="tooltip" title="Páginas de conversão" class="fa"><strong></strong></div>
                       </div>
                       <div class="w-col w-col-3"><img src="assets/images/tick.svg" class="ico-check"></div>
                       <div class="w-col w-col-3"><img src="assets/images/tick.svg" class="ico-check"></div>
@@ -446,7 +448,7 @@
                   <div class="row-comparativo w-row" data-ix="show-on-scroll">
                       <div class="column-caracteristica w-col w-col-3 w-col-tiny-3">
                           <div class="txt-14 smaller">Lead Tracking</div>
-                          <!-- <div data-tooltip="Acompanhe os passos do seu Lead antes mesmo dele ser identificado" class="fa"><strong></strong></div> -->
+                          <div data-toggle="tooltip" title="Acompanhe os passos do seu Lead antes mesmo dele ser identificado" class="fa"><strong></strong></div>
                       </div>
                       <div class="w-col w-col-3 w-col-tiny-3"><img src="assets/images/close.svg" width="25" class="ico-close"></div>
                       <div class="w-col w-col-3 w-col-tiny-3"><img src="assets/images/tick.svg" class="ico-check"></div>
@@ -459,7 +461,7 @@
                   <div class="row-comparativo w-row" data-ix="show-on-scroll">
                       <div class="column-caracteristica w-col w-col-3 w-col-tiny-3">
                           <div class="txt-14 smaller">Lead Scoring</div>
-                          <!-- <div data-tooltip="Qualificação automática dos Leads por perfil e interesse" class="fa"><strong></strong></div> -->
+                          <div data-toggle="tooltip" title="Qualificação automática dos Leads por perfil e interesse" class="fa"><strong></strong></div>
                       </div>
                       <div class="w-col w-col-3 w-col-tiny-3"><img src="assets/images/close.svg" width="25" class="ico-close"></div>
                       <div class="w-col w-col-3 w-col-tiny-3"><img src="assets/images/tick.svg" class="ico-check"></div>
@@ -519,13 +521,14 @@
                           <div class="txt-14 smaller center">Email / Chat / Ticket<br>Skype ou Telefone</div>
                       </div>
                   </div>
-                  <!-- <a href="<?php echo base_url; ?>assinar" class="link-nav cta _100percent _350 w-hidden-main w-hidden-medium w-hidden-small w-button">ASSINAR AGORA</a> -->
+                  <?php /* <a href="<?php echo base_url; ?>assinar" class="link-nav cta _100percent _350 w-hidden-main w-hidden-medium w-hidden-small w-button">ASSINAR AGORA</a> */ ?>
               </div>
           </div>
           <div class="line-comparativo last buttons">
               <div class="container-comparativo w-container">
                   <div class="row-comparativo bots topmargin w-row" data-ix="show-on-scroll">
-                      <!-- <div class="column-caracteristica w-col w-col-3"></div>
+                      <?php /*
+                      <div class="column-caracteristica w-col w-col-3"></div>
                       <div class="w-col w-col-3"><a href="<?php echo base_url; ?>criar-conta" class="button-yellow full w-button">ASSINAR AGORA</a>
                           <div class="spacer"></div>
                           <div class="txt-14 smaller center">*Cartão de crédito e boleto bancário</div>
@@ -537,7 +540,8 @@
                       <div class="w-col w-col-3"><a href="<?php echo base_url; ?>criar-conta" class="button-yellow full w-button">ASSINAR AGORA</a>
                           <div class="spacer"></div>
                           <div class="txt-14 center">*Cartão de crédito e boleto bancário</div>
-                      </div> -->
+                      </div>
+                      */ ?>
                   </div>
               </div>
           </div>
@@ -773,8 +777,19 @@
 
     <?php include_once './includes/footer.php'; ?>
 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script>
     jQuery(document).ready(function($) {
+        $('[data-toggle="tooltip"]').tooltip();
+
+        $('input[name=radio]').change(function() {
+            if ( $(this).attr('data-value') == 'month' ) {
+                $('.aviso-semestral').show();
+            } else {
+                $('.aviso-semestral').hide();
+            }
+        });
+
         $('.assinar-btn').click(function() {
             var plano = $(this).closest('.div-content-planos').attr('data-plano'),
             contatos = $('.links-contatos.active').attr('data-value'),

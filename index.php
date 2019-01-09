@@ -733,7 +733,7 @@
                           <div class="parte-cima">
                               <h2 class="h2 small blue bold">BASIC</h2>
                               <div class="txtblock-20"><span class="rs">R$</span><span id="planPrice-basic" class="_58">229</span><span class="mes">/mês</span></div>
-                              <!-- <div class="txtblock-gray center"><span class="bolder">Contrato mínimo semestral</div> -->
+                              <div class="txtblock-gray center aviso-semestral"><span class="bolder">Contrato mínimo semestral</div>
                               <div style="display:none;" class="txtblock-gray monthEquivalent center"><span class="bolder">Cobrado anualmente<br></span>equivalente a R$<span id="equivalentPrice-month-basic">3.490,00</span>/ano</div>
                               <div class="spacer _30"></div>
                               <div class="div-line-planos w-clearfix"><img src="assets/images/checked.svg" width="15" class="check-green verde">
@@ -764,7 +764,7 @@
                                   <div class="txtblock-gray">Suporte via Email / Chat / Ticket</div>
                               </div>
                           </div>
-                          <!-- <button class="assinar-btn link-nav cta _100percent w-button">ASSINAR AGORA</button> -->
+                          <?php /* <button class="assinar-btn link-nav cta _100percent w-button">ASSINAR AGORA</button> */ ?>
                       </div>
                   </div>
                   <div class="column-zero-pad w-col w-col-3">
@@ -773,7 +773,7 @@
                               <div class="featured">MAIS CONTRATADO</div>
                               <h2 class="h2 small blue bold">Professional</h2>
                               <div class="txtblock-20"><span class="rs">R$</span><span id="planPrice-professional" class="_58">349</span><span class="mes">/mês</span></div>
-                              <!-- <div class="txtblock-gray center"><span class="bolder">Contrato mínimo semestral</div> -->
+                              <div class="txtblock-gray center aviso-semestral"><span class="bolder">Contrato mínimo semestral</div>
                               <div style="display:none;" class="txtblock-gray monthEquivalent center"><span class="bolder">Cobrado mensalmente<br></span>equivalente a R$<span id="equivalentPrice-month-professional">3.490,00</span>/ano</div>
                               <div class="spacer _30"></div>
                               <div class="div-line-planos w-clearfix"><img src="assets/images/checked.svg" width="15" class="check-green verde">
@@ -798,7 +798,7 @@
                                   <div class="txtblock-gray">Suporte via Email / Chat / Ticket</div>
                               </div>
                           </div>
-                          <!-- <button class="assinar-btn link-nav cta _100percent w-button">ASSINAR AGORA</button> -->
+                          <?php /* <button class="assinar-btn link-nav cta _100percent w-button">ASSINAR AGORA</button> */ ?>
                       </div>
                   </div>
                   <div class="column-zero-pad w-col w-col-3">
@@ -806,7 +806,7 @@
                           <div class="parte-cima">
                               <h2 class="h2 small blue bold">Enterprise</h2>
                               <div class="txtblock-20"><span class="rs">R$</span><span id="planPrice-enterprise" class="_58">979</span><span class="mes">/mês</span></div>
-                              <!-- <div class="txtblock-gray center"><span class="bolder">Contrato mínimo semestral</div> -->
+                              <div class="txtblock-gray center aviso-semestral"><span class="bolder">Contrato mínimo semestral</div>
                               <div style="display:none;" class="txtblock-gray monthEquivalent center"><span class="bolder">Cobrado mensalmente<br></span>equivalente a R$<span id="equivalentPrice-month-enterprise">3.490,00</span>/ano</div>
                               <div class="spacer _30"></div>
                               <div class="div-line-planos w-clearfix"><img src="assets/images/checked.svg" width="15" class="check-green verde">
@@ -834,7 +834,7 @@
                                   <div class="txtblock-gray">Suporte via Email / Chat / Ticket / Telefone</div>
                               </div>
                           </div>
-                          <!-- <button class="assinar-btn link-nav cta _100percent w-button">ASSINAR AGORA</button> -->
+                          <?php /* <button class="assinar-btn link-nav cta _100percent w-button">ASSINAR AGORA</button> */ ?>
                       </div>
                   </div>
                   <div class="column-zero-pad w-col w-col-3">
@@ -991,6 +991,13 @@
 
     <script>
     jQuery(document).ready(function($) {
+        $('input[name=radio]').change(function() {
+            if ( $(this).attr('data-value') == 'month' ) {
+                $('.aviso-semestral').show();
+            } else {
+                $('.aviso-semestral').hide();
+            }
+        });
         $('.assinar-btn').click(function() {
             var plano = $(this).closest('.div-content-planos').attr('data-plano'),
             contatos = $('.links-contatos.active').attr('data-value'),

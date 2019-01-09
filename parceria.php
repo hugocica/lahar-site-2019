@@ -9,6 +9,8 @@
 
     <?php include_once './includes/header.php'; ?>
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
 </head>
 
 <body>
@@ -245,7 +247,7 @@
                         <div class="spacer _30"></div>
                         <div class="row-comparativo w-row" data-ix="show-on-scroll">
                             <div class="column-comparativo-parceiros w-col w-col-3"><img src="assets/images/tick.svg" class="ico-check partners">
-                                <div class="txt-14 smaller">Contrato de afiliado ativo <!-- <span data-tooltip="Ajuda" class="fa"></span> --></div>
+                                <div class="txt-14 smaller">Contrato de afiliado ativo <!-- <span data-toggle="tooltip" title="Ajuda" class="fa"></span> --></div>
                             </div>
                             <div class="column-comparativo-parceiros w-col w-col-3"><img src="assets/images/tick.svg" class="ico-check partners">
                                 <div class="txt-14 smaller">Conta LAHAR ativa</div>
@@ -399,6 +401,13 @@
             </div>
 
             <?php include_once './includes/footer.php'; ?>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
 
 </body>
 </html>
