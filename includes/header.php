@@ -1,5 +1,7 @@
 <?php
-    define('base_url', 'https://www.lahar.com.br/');
+    // define('base_url', 'https://www.lahar.com.br/');
+    define('base_url', 'http://localhost/lahar-site/');
+    define('APP_URL', 'http://localhost/codebase-v2.1/');
 ?>
 
 <meta content="https://uploads-ssl.webflow.com/5b61fa57f40d761dfde53b39/5bad230e67eab4e37f2d224d_share.jpg" property="og:image">
@@ -77,6 +79,9 @@ src="https://www.facebook.com/tr?id=1740282269593158&ev=PageView&noscript=1"
         -moz-border-radius: 50px;
         -ms-border-radius: 50px;
         border-radius: 50px;
+    }
+    .crisp-client .crisp-1rjpbb7 .crisp-zyxrmn {
+    	max-height: 420px !important;
     }
 </style>
 <style>

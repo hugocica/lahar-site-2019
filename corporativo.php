@@ -154,21 +154,23 @@
     </div>
     <div class="container-center w-container" data-ix="show-on-scroll">
         <div class="w-row">
-            <div class="column-5 w-col w-col-6"><img src="assets/images/pexels-photo-864994.jpg">
+            <div class="column-5 w-col w-col-6">
+                <img src="https://www.lahar.com.br/site-antigo/images/fotoMocelim.png" style="max-width: 200px; margin: 0 auto; display: block">
                 <div class="spacer"></div>
                 <div class="comma">‘‘</div>
                 <div class="div-testimonial-quote">
-                    <div class="txtblocks-blue medium _15 line-padding">A LAHAR é um software de automação de marketing que ajuda na sua estratégia de nutrição de leads, inbound marketing e vendas em um sistema completo para fazer sua empresa crescer mais.</div>
+                    <div class="txtblocks-blue medium _15 line-padding">Realizamos webinars em uma média de 3 vezes por semana, o que leva a um processo constante da utilização do e-mail marketing com o objetivo de divulgar esses eventos. Com a LAHAR, conseguimos aumentar em muito o número de pessoas participando de webinars, o que levou a um maior engajamento de nossos leads.</div>
                     <div class="spacer"></div>
-                    <div class="title-testimonial">Marina Oliveira</div>
-                    <div class="txtblocks-blue medium">Lecom</div>
+                    <div class="title-testimonial">Antonio Mocelim</div>
+                    <div class="txtblocks-blue medium">M3Corp</div>
                 </div>
             </div>
-            <div class="column-5 w-col w-col-6"><img src="assets/images/pexels-photo-864994.jpg">
+            <div class="column-5 w-col w-col-6">
+                <img src="https://www.lahar.com.br/site-antigo/images/fotoMarina.png" style="max-width: 200px; margin: 0 auto; display: block">
                 <div class="spacer"></div>
                 <div class="comma">‘‘</div>
                 <div class="div-testimonial-quote">
-                    <div class="txtblocks-blue medium _15 line-padding">A LAHAR é um software de automação de marketing que ajuda na sua estratégia de nutrição de leads, inbound marketing e vendas em um sistema completo para fazer sua empresa crescer mais.</div>
+                    <div class="txtblocks-blue medium _15 line-padding">Hoje temos tudo automatizado em nosso site, todas as áreas de conversão são integrados na plataforma. Com a LAHAR, intensificamos a nossa atuação em marketing digital. A plataforma nos garante gestão e mensuração dos resultados e visão dos processos de marketing digital de ponta a ponta.</div>
                     <div class="spacer"></div>
                     <div class="title-testimonial">Marina Oliveira</div>
                     <div class="txtblocks-blue medium">Lecom</div>

@@ -7,9 +7,11 @@
     <meta content="Programas de Parceria de Marketing Digital: até 30% de comissão" property="og:title">
     <meta content="Comissão, dashboard centralizado, personalização do software: conheça todas as vantagens da parceria de Marketing Digital com a LAHAR." property="og:description">
 
-    <?php include_once './includes/header.php'; ?>
+    <style>
+        .tooltip{position:absolute;z-index:1070;display:block;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:12px;font-style:normal;font-weight:400;line-height:1.42857143;text-align:left;text-align:start;text-decoration:none;text-shadow:none;text-transform:none;letter-spacing:normal;word-break:normal;word-spacing:normal;word-wrap:normal;white-space:normal;filter:alpha(opacity=0);opacity:0;line-break:auto}.tooltip.in{filter:alpha(opacity=90);opacity:.9}.tooltip.top{padding:5px 0;margin-top:-3px}.tooltip.right{padding:0 5px;margin-left:3px}.tooltip.bottom{padding:5px 0;margin-top:3px}.tooltip.left{padding:0 5px;margin-left:-3px}.tooltip-inner{max-width:200px;padding:3px 8px;color:#fff;text-align:center;background-color:#000;border-radius:4px}.tooltip-arrow{position:absolute;width:0;height:0;border-color:transparent;border-style:solid}.tooltip.top .tooltip-arrow{bottom:0;left:50%;margin-left:-5px;border-width:5px 5px 0;border-top-color:#000}.tooltip.top-left .tooltip-arrow{right:5px;bottom:0;margin-bottom:-5px;border-width:5px 5px 0;border-top-color:#000}.tooltip.top-right .tooltip-arrow{bottom:0;left:5px;margin-bottom:-5px;border-width:5px 5px 0;border-top-color:#000}.tooltip.right .tooltip-arrow{top:50%;left:0;margin-top:-5px;border-width:5px 5px 5px 0;border-right-color:#000}.tooltip.left .tooltip-arrow{top:50%;right:0;margin-top:-5px;border-width:5px 0 5px 5px;border-left-color:#000}.tooltip.bottom .tooltip-arrow{top:0;left:50%;margin-left:-5px;border-width:0 5px 5px;border-bottom-color:#000}.tooltip.bottom-left .tooltip-arrow{top:0;right:5px;margin-top:-5px;border-width:0 5px 5px;border-bottom-color:#000}.tooltip.bottom-right .tooltip-arrow{top:0;left:5px;margin-top:-5px;border-width:0 5px 5px;border-bottom-color:#000}
+    </style>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <?php include_once './includes/header.php'; ?>
 
 </head>
 
@@ -38,15 +40,20 @@
         <div class="section-branca">
             <div class="container-center w-container">
                 <div data-ix="show-on-scroll">
-                    <h1 class="h1 medium inverted">Quem já está junto com a LAHAR</h1>
+                    <h1 class="h1 medium inverted">Já fizeram parcerias de Marketing Digital com a LAHAR</h1>
                     <div class="spacer _30"></div>
                     <div class="div-empresas" style="display: flex;align-items: center;justify-content: space-between;">
-                        <a href="https://www.totvs.com/" target="_blank" class="marcas off w-inline-block" data-ix="show-on-scroll"><img src="assets/images/totvs.png" width="130"></a>
-                        <a href="https://targetmais.com.br/" target="_blank" class="marcas off w-inline-block" data-ix="show-on-scroll"><img src="assets/images/targetmais.png" width="117"></a>
-                        <a href="https://www.roihero.com.br/" target="_blank" class="marcas off w-inline-block" data-ix="show-on-scroll"><img src="assets/images/roihero.png" width="1750"></a>
-                        <a href="https://eadplataforma.com/" target="_blank" class="marcas off w-inline-block" data-ix="show-on-scroll"><img src="assets/images/eadplataforma.png" width="100" style="margin-left: -17px;"></a>
-                        <a href="http://www.assobrav.com.br/" target="_blank" class="marcas off w-inline-block" data-ix="show-on-scroll"><img src="assets/images/assobrav.png" width="1750" style="min-width: 195px;"></a>
-                        <a href="https://www.jetecommerce.com.br/" target="_blank" class="marcas off w-inline-block" data-ix="show-on-scroll"><img src="assets/images/jet.jpg" width="95"></a>
+                        <a href="http://www.twodigital.com.br/" target="_blank" class="marcas off w-inline-block" data-ix="show-on-scroll"><img src="assets/images/two_digital.png" width="60"></a>
+                        <a href="http://thewedge.com.br/" target="_blank" class="marcas off w-inline-block" data-ix="show-on-scroll"><img src="assets/images/the_wedge_preto.png" width="100"></a>
+                        <a href="https://targetmais.com.br/" target="_blank" class="marcas off w-inline-block" data-ix="show-on-scroll"><img src="assets/images/targetmais.png" width="100"></a>
+                        <a href="https://www.leadforce.com.br/" target="_blank" class="marcas off w-inline-block" data-ix="show-on-scroll"><img src="assets/images/lead_force.png" width="40"></a>
+                        <a href="https://uplevelbrasil.com.br/" target="_blank" class="marcas off w-inline-block" data-ix="show-on-scroll"><img src="assets/images/uplevel.png" width="50"></a>
+                        <a href="http://www.zipro.com.br/" target="_blank" class="marcas off w-inline-block" data-ix="show-on-scroll"><img src="assets/images/zimmermanpro.jpeg" width="40"></a>
+                        <a href="http://www.paocriacao.com.br/site/" target="_blank" class="marcas off w-inline-block" data-ix="show-on-scroll"><img src="assets/images/pao_criacao.png" width="90"></a>
+                        <a href="https://spar.com.br/" target="_blank" class="marcas off w-inline-block" data-ix="show-on-scroll"><img src="assets/images/spar.png" width="60"></a>
+                        <a href="https://marketeria.net.br/" target="_blank" class="marcas off w-inline-block" data-ix="show-on-scroll"><img src="assets/images/marketeria.png" width="130"></a>
+                        <a href="https://www.vesti.com.br/" target="_blank" class="marcas off w-inline-block" data-ix="show-on-scroll"><img src="assets/images/logo_vesti.png" width="130"></a>
+                        <a href="https://blimp.ag" target="_blank" class="marcas off w-inline-block" data-ix="show-on-scroll"><img src="https://blimp.ag/wp-content/uploads/2018/12/blimp-logo-horizontal.jpeg" width="70"></a>
                     </div>
                 </div>
                 <div class="spacer _100"></div>
@@ -220,8 +227,10 @@
             <div class="section-branca nopad-bottom">
                 <div class="container-center w-container">
                     <div class="titulos-padding _70" data-ix="show-on-scroll">
-                        <h1 class="h1 medium inverted">Porque ser um parceiro LAHAR?</h1>
-                        <h2 class="h2 small blue">Conheça os benefícios e requisitos para cada nível do nosso programa de parceiros:</h2>
+                        <h1 class="h1 medium inverted">Política de Parceria LAHAR 2019</h1>
+                        <div class="spacer _30"></div>
+                        <h2 class="h2 small blue"><strong>Objetivos</strong></h2>
+                        <div class="txt-16 smaller">Oferecer diferenciais financeiros, técnicos e comerciais para agencias digitais e profissionais de marketing digital. Agregar valor as entregas do parceiro. Constantemente estimular a geração de resultado para os clientes do parceiro. Gerar receita recorrente ao parceiro.</div>
                     </div>
                     <div class="spacer _100 w-hidden-tiny"></div>
                 </div>
@@ -247,16 +256,16 @@
                         <div class="spacer _30"></div>
                         <div class="row-comparativo w-row" data-ix="show-on-scroll">
                             <div class="column-comparativo-parceiros w-col w-col-3"><img src="assets/images/tick.svg" class="ico-check partners">
-                                <div class="txt-14 smaller">Contrato de afiliado ativo <!-- <span data-toggle="tooltip" title="Ajuda" class="fa"></span> --></div>
+                                <div class="txt-14 smaller">Contrato de parceria ativo <!-- <span data-toggle="tooltip" title="Ajuda" class="fa"></span> --></div>
                             </div>
                             <div class="column-comparativo-parceiros w-col w-col-3"><img src="assets/images/tick.svg" class="ico-check partners">
-                                <div class="txt-14 smaller">Conta LAHAR ativa</div>
+                                <div class="txt-14 smaller">Ser assinante LAHAR plano professional</div>
                             </div>
                             <div class="column-comparativo-parceiros w-col w-col-3"><img src="assets/images/tick.svg" class="ico-check partners">
-                                <div class="txt-14 smaller">Conta LAHAR ativa</div>
+                                <div class="txt-14 smaller">Ser assinante LAHAR plano enterprise</div>
                             </div>
                             <div class="column-comparativo-parceiros w-col w-col-3"><img src="assets/images/tick.svg" class="ico-check partners">
-                                <div class="txt-14 smaller">Conta LAHAR ativa</div>
+                                <div class="txt-14 smaller">Ser assinante LAHAR plano enterprise</div>
                             </div>
                         </div>
                         <div class="row-comparativo w-row" data-ix="show-on-scroll">
@@ -271,30 +280,44 @@
                             </div>
                             <div class="column-comparativo-parceiros w-col w-col-3"><img src="assets/images/tick.svg" class="ico-check partners">
                                 <div class="txt-14 smaller">Contrato de parceria ativo</div>
+                            </div>
+                        </div>
+                        <div class="row-comparativo w-row" data-ix="show-on-scroll">
+                            <div class="column-comparativo-parceiros w-col w-col-3"><img src="assets/images/tick.svg" class="ico-check partners">
+                                <div class="txt-14 smaller">Emissão de boleto para pagamentos de comissão sobre vendas</div>
+                            </div>
+                            <div class="column-comparativo-parceiros w-col w-col-3"><img src="assets/images/tick.svg" class="ico-check partners">
+                                <div class="txt-14 smaller">Emissão de NF de comissão sobre vendas</div>
+                            </div>
+                            <div class="column-comparativo-parceiros w-col w-col-3"><img src="assets/images/tick.svg" class="ico-check partners">
+                                <div class="txt-14 smaller">Emissão de NF de comissão sobre vendas</div>
+                            </div>
+                            <div class="column-comparativo-parceiros w-col w-col-3"><img src="assets/images/tick.svg" class="ico-check partners">
+                                <div class="txt-14 smaller">Emissão de NF de comissão sobre vendas</div>
                             </div>
                         </div>
                         <div class="row-comparativo w-row" data-ix="show-on-scroll">
                             <div class="column-comparativo-parceiros w-col w-col-3"></div>
                             <div class="column-comparativo-parceiros w-col w-col-3"><img src="assets/images/tick.svg" class="ico-check partners">
-                                <div class="txt-14 smaller">Emissão de NF de comissão sobre vendas</div>
+                                <div class="txt-14 smaller">Emissão de boleto para pagamento de comissão sobre vendas</div>
                             </div>
                             <div class="column-comparativo-parceiros w-col w-col-3"><img src="assets/images/tick.svg" class="ico-check partners">
-                                <div class="txt-14 smaller">Emissão de NF de comissão sobre vendas</div>
+                                <div class="txt-14 smaller">Emissão de boleto para pagamento de comissão sobre vendas</div>
                             </div>
                             <div class="column-comparativo-parceiros w-col w-col-3"><img src="assets/images/tick.svg" class="ico-check partners">
-                                <div class="txt-14 smaller">Emissão de NF de comissão sobre vendas</div>
+                                <div class="txt-14 smaller">Emissão de boleto para pagamento de comissão sobre vendas</div>
                             </div>
                         </div>
                         <div class="row-comparativo w-row" data-ix="show-on-scroll">
                             <div class="column-comparativo-parceiros w-col w-col-3"></div>
                             <div class="column-comparativo-parceiros w-col w-col-3"><img src="assets/images/tick.svg" class="ico-check partners">
-                                <div class="txt-14 smaller">Mínimo 2 clientes ativos em sua conta</div>
+                                <div class="txt-14 smaller">Mínimo 5 clientes revendidos e pagantes</div>
                             </div>
                             <div class="column-comparativo-parceiros w-col w-col-3"><img src="assets/images/tick.svg" class="ico-check partners">
-                                <div class="txt-14 smaller">Mínimo 10 clientes ativos em sua conta, ou faturamento superior a R$ 3.000,00/mês nos clientes ativos em sua conta</div>
+                                <div class="txt-14 smaller">Mínimo 10 clientes revendidos e pagantes</div>
                             </div>
                             <div class="column-comparativo-parceiros w-col w-col-3"><img src="assets/images/tick.svg" class="ico-check partners">
-                                <div class="txt-14 smaller">Mínimo 10 clientes ativos em sua conta, ou faturamento superior a R$ 3.000,00/mês nos clientes ativos em sua conta</div>
+                                <div class="txt-14 smaller">Mínimo 15 clientes revendidos e pagantes</div>
                             </div>
                         </div>
                     </div>
@@ -307,54 +330,49 @@
                     <div class="w-col w-col-9">
                         <div class="row-comparativo w-row" data-ix="show-on-scroll">
                             <div class="column-comparativo-parceiros w-col w-col-3"><img src="assets/images/tick.svg" class="ico-check partners">
-                                <div class="txt-14 smaller">15% da receita recorrente (SaaS Software) dos clientes indicados, ativos e pagantes</div>
+                                <div class="txt-14 smaller">10% da receita recorrente (assinatura) dos clientes revendidos e pagantes*</div>
                             </div>
                             <div class="column-comparativo-parceiros w-col w-col-3"><img src="assets/images/tick.svg" class="ico-check partners">
-                                <div class="txt-14 smaller">20% da receita recorrente (SaaS Software) dos clientes indicados, ativos e pagantes</div>
+                                <div class="txt-14 smaller">15% da receita recorrente (assinatura) dos clientes revendidos e pagantes*</div>
                             </div>
                             <div class="column-comparativo-parceiros w-col w-col-3"><img src="assets/images/tick.svg" class="ico-check partners">
-                                <div class="txt-14 smaller">25% da receita recorrente (SaaS Software) dos clientes indicados, ativos e pagantes</div>
+                                <div class="txt-14 smaller">20% da receita recorrente (assinatura) dos clientes revendidos e pagantes*</div>
                             </div>
                             <div class="column-comparativo-parceiros w-col w-col-3"><img src="assets/images/tick.svg" class="ico-check partners">
-                                <div class="txt-14 smaller">30% da receita recorrente (SaaS Software) dos clientes indicados, ativos e pagantes</div>
-                            </div>
-                        </div>
-                        <div class="row-comparativo w-row" data-ix="show-on-scroll">
-                            <div class="column-comparativo-parceiros w-col w-col-3"><img src="assets/images/tick.svg" class="ico-check partners">
-                                <div class="txt-14 smaller">Landing Page exclusiva de conversão</div>
-                            </div>
-                            <div class="column-comparativo-parceiros w-col w-col-3"><img src="assets/images/tick.svg" class="ico-check partners">
-                                <div class="txt-14 smaller">Conta LAHAR Basic gratuita</div>
-                            </div>
-                            <div class="column-comparativo-parceiros w-col w-col-3"><img src="assets/images/tick.svg" class="ico-check partners">
-                                <div class="txt-14 smaller">Conta LAHAR Professional I gratuita</div>
-                            </div>
-                            <div class="column-comparativo-parceiros w-col w-col-3"><img src="assets/images/tick.svg" class="ico-check partners">
-                                <div class="txt-14 smaller">Conta LAHAR Professional II gratuita</div>
+                                <div class="txt-14 smaller">25% da receita recorrente (assinatura) dos clientes revendidos e pagantes*</div>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="line-comparativo middle"></div>
+                <div class="container-center w-container">
+                    <div class="spacer _100"></div>
+                </div>
+                <div class="container-center w-container">
+                    <div class="titulos-padding _70" data-ix="show-on-scroll">
+                        <h1 class="h1 medium inverted">*Regras e Considerações Adicionais</h1>
+                        <div class="spacer _30"></div>
+                        <div class="txt-16 smaller">Somente serão considerados clientes revendidos, aqueles que forem contratados utilizando o cupom exclusivo de cada parceiro.</div>
+                    </div>
+                    <div class="spacer _100 w-hidden-tiny"></div>
+                </div>
+                <div class="row-extended w-row">
+                    <div class="column-7 w-col w-col-3">
+                        <div class="text-block-13" style="font-size: 20px;padding: 10px 4px;text-align: center;background-color: #152941;">Outras Instruções</div>
+                    </div>
+                    <div class="w-col w-col-9">
                         <div class="row-comparativo w-row" data-ix="show-on-scroll">
-                            <div class="column-comparativo-parceiros w-col w-col-3"></div>
                             <div class="column-comparativo-parceiros w-col w-col-3"><img src="assets/images/tick.svg" class="ico-check partners">
-                                <div class="txt-14 smaller">Apoio em prospecções</div>
+                                <div class="txt-14 smaller">Todo parceiro terá acesso ao gestor de canais LAHAR, o mesmo será o principal apoio do parceiro junto a LAHAR</div>
                             </div>
                             <div class="column-comparativo-parceiros w-col w-col-3"><img src="assets/images/tick.svg" class="ico-check partners">
-                                <div class="txt-14 smaller">Apoio em prospecções</div>
+                                <div class="txt-14 smaller">O pagamento das comissões é trimestral, sendo pago todo dia 20 do mês seguinte ao fechamento trimestral.</div>
                             </div>
                             <div class="column-comparativo-parceiros w-col w-col-3"><img src="assets/images/tick.svg" class="ico-check partners">
-                                <div class="txt-14 smaller">Apoio em prospecções</div>
-                            </div>
-                        </div>
-                        <div class="row-comparativo w-row" data-ix="show-on-scroll">
-                            <div class="column-comparativo-parceiros w-col w-col-3"></div>
-                            <div class="column-comparativo-parceiros w-col w-col-3"><img src="assets/images/tick.svg" class="ico-check partners">
-                                <div class="txt-14 smaller">Acesso à metodologia LAHAR de implementação de marketing digital e inteligência em vendas</div>
+                                <div class="txt-14 smaller">Logo após o fechamento do trimestre será emitido o relatório de comissões referente ao período trimestral anterior, e mediante este relatório o parceiro deve emitir a sua NF e boleto até o 5º dia útil do mês corrente.</div>
                             </div>
                             <div class="column-comparativo-parceiros w-col w-col-3"><img src="assets/images/tick.svg" class="ico-check partners">
-                                <div class="txt-14 smaller">Acesso à metodologia LAHAR de implementação de marketing digital e inteligência em vendas</div>
-                            </div>
-                            <div class="column-comparativo-parceiros w-col w-col-3"><img src="assets/images/tick.svg" class="ico-check partners">
-                                <div class="txt-14 smaller">Acesso à metodologia LAHAR de implementação de marketing digital e inteligencia em vendas</div>
+                                <div class="txt-14 smaller">Caso o parceiro não consiga emitir um boleto para pagamento da comissão, será descontado da comissão o valor das taxas bancárias para pagamento do parceiro</div>
                             </div>
                         </div>
                     </div>

@@ -79,6 +79,8 @@
     </div>
 </div>
 
+<input id="identificador_tracker_lahar" name="identificador_tracker_lahar" type="hidden" value="" />
+
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="assets/js/lahar-v2.js" type="text/javascript"></script>
 <script src="assets/js/custom.js" type="text/javascript"></script>
@@ -88,9 +90,12 @@
         $('.try-btn').click(function(event) {
             event.preventDefault();
 
+            $('#email-form').removeClass('error');
+
             var email = $("#email").val();
             var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/igm;
 
+            $("#mensagem_form_empty").hide();
             $("#mensagem_form_invalido").hide();
             $("#mensagem_form").hide();
 
@@ -99,6 +104,7 @@
 
                     $("#mensagem_form").hide();
                     $("#mensagem_form_invalido").show();
+                    $('#email-form').addClass('error');
 
                 } else {
 
@@ -106,8 +112,7 @@
                     $('#envia_trial_verificacao').show();
 
                     $.ajax({
-                        url: 'https://app.lahar.com.br/verificar-email',
-                        // url: 'http://localhost/codebase-v2.1/verificar-email',
+                        url: '<?php echo APP_URL; ?>verificar-email',
                         data: {
                             email: email
                         },
@@ -131,12 +136,16 @@
 
                                 $("#mensagem_form_invalido").hide();
                                 $("#mensagem_form").show();
+                                $('#email-form').addClass('error');
                             } else {
                                 window.location.href = '<?php echo base_url; ?>criar-conta?email='+email;
                             }
                         }
                     });
                 }
+            } else {
+                $("#mensagem_form_empty").show();
+                $('#email-form').addClass('error');
             }
         });
     });
@@ -144,11 +153,11 @@
 
 <script type="text/javascript" async src="https://app.lahar.com.br/assets/scripts/custom/arquivos/tracker/track-lahardigvMaffuuHW0A1ZDhnoqYEgEO7WWONL6DVPIK2.js"></script>
 
+<!-- SCRIPT DE INCLUSÃO DO CRISP -->
+<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="eaec4cad-1096-4fbe-9af9-93199c70cc6d";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+
 <script>
-window.intercomSettings = {
-  app_id: "k38ojcdf"
-};
+    $crisp.push(["set", "session:segments", [["LAHAR Site"]]]);
 </script>
-<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/k38ojcdf';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
 
 <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->

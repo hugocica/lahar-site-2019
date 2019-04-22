@@ -3,7 +3,7 @@
 
     // Se as informações constarem em outro array que não o próprio $_POST, substitua na linha abaixo
     $valores = $_REQUEST;
-    
+
     if (count($valores) > 0) {
 
         $cidade_uf = explode("/", $valores['cidade']);
@@ -157,8 +157,7 @@
     // Snippet - Integração de conversões LAHAR
     function integra_api_lahar($token_api_lahar, $endpoint, $nome_formulario, $campos) {
 
-        // $endpoint_full_url = 'http://localhost/codebase-v2.1/api/'.$endpoint;
-        $endpoint_full_url = 'https://app.lahar.com.br/api/'.$endpoint;
+        $endpoint_full_url = APP_URL. 'api/'.$endpoint;
 
         if ( $endpoint == 'conversions' ) {
             $method = 'POST';

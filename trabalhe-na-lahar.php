@@ -377,7 +377,7 @@
                     <a href="#cadastro-curriculo" class="button-yellow left w-button change-vaga" data-vaga="Especialista de Marketing Digital" data-ix="show-on-scroll">Cadastrar currículo</a>
                     <div class="spacer _50 w-hidden-tiny"></div>
                 </div>
-                <div id="cadastro-curriculo" class="containers-funcionalidades w-container">
+                <div id="cadastro-curriculo" class="containers-funcionalidades w-container" style="overflow-x: hidden;">
                     <h4 class="h4 cv-form-label">Cadastre seu currículo:</h4>
                     <div class="spacer"></div>
                     <div class="w-form">
@@ -451,7 +451,7 @@
                     element.mask("(99) 99999-999?9");
                 } else {
                     element.mask("(99) 9999-9999?9");
-                }       
+                }
             });
             jQuery("input#vaga_telefone")
             .focusin(function (event) {
@@ -492,7 +492,7 @@
                         type: 'POST',
                         beforeSend: function() {
                             $('#envia-cv').hide();
-                            $("#status-formulario").html(""); 
+                            $("#status-formulario").html("");
                         },
                         success: function( data ) {
                             if ( data.status == 'ok' ) {
@@ -504,7 +504,7 @@
                         }
                     });
                 } else {
-                    $("#status-formulario").html("É necessário preencher corretamente todos os campos contendo asterisco(*)."); 
+                    $("#status-formulario").html("É necessário preencher corretamente todos os campos contendo asterisco(*).");
                 }
             });
         });

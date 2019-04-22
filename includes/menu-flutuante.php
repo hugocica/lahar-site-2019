@@ -6,7 +6,7 @@
                 <a href="<?php echo base_url; ?>funcionalidades-lahar" class="link-nav w-nav-link">FUNCIONALIDADES</a>
                 <a href="<?php echo base_url; ?>planos-e-precos" class="link-nav w-nav-link">PLANOS</a>
                 <a href="<?php echo base_url; ?>corporativo" class="link-nav w-nav-link">CORPORATIVO</a>
-                <a href="<?php echo base_url; ?>cases-de-marketing-digital" class="link-nav w-nav-link">HISTÓRIAS DE SUCESSO</a>
+                <a href="<?php echo base_url; ?>historia-de-sucesso" class="link-nav w-nav-link">HISTÓRIAS DE SUCESSO</a>
                 <a href="<?php echo base_url; ?>parceria" class="link-nav w-nav-link">PARCEIROS</a>
                 <div data-hover="1" data-delay="0" class="dropdown-padrao w-dropdown">
                     <div class="link-nav menu w-dropdown-toggle">
@@ -39,6 +39,7 @@
                     </nav>
                 </div><a href="https://blog.lahar.com.br/" target="_blank" class="link-nav w-nav-link">BLOG</a>
                 <a href="<?php echo base_url; ?>criar-conta" class="link-nav cta w-nav-link">experimente grátis</a>
+                <?php /*
                 <div class="flags">
                     <!--
                     <a href="#"  onclick="changeLanguage('')" class="flag w-inline-block"><img src="assets/images/brasil.svg"></a>
@@ -51,6 +52,7 @@
                     <div class="divider-flags"></div>
                     <a href="#" class="flag w-inline-block"><img src="assets/images/spain.svg"></a>
                 </div>
+                */ ?>
                 </nav>
                 <div class="menu-color w-nav-button">
                     <div class="w-icon-nav-menu"></div>

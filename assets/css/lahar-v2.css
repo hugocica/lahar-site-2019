@@ -139,8 +139,8 @@
 .section-hero.planos-e-precos {
   height: auto;
   padding-bottom: 100px;
-  background-image: url('../images/triangle.svg'), -webkit-linear-gradient(270deg, rgba(7, 104, 141, .15) 68%, #00adef), url('../images/planos-precos.jpg');
-  background-image: url('../images/triangle.svg'), linear-gradient(180deg, rgba(7, 104, 141, .15) 68%, #00adef), url('../images/planos-precos.jpg');
+  background-image: url('../images/triangle.svg'), -webkit-linear-gradient(270deg, rgba(7, 104, 141, .15) 68%, #00adef), url('../images/planos-banner.jpg');
+  background-image: url('../images/triangle.svg'), linear-gradient(180deg, rgba(7, 104, 141, .15) 68%, #00adef), url('../images/planos-banner.jpg');
   background-position: 0px 100%, 0px 0px, 50% 0px;
   background-size: cover, auto, cover;
   background-repeat: no-repeat, repeat, repeat;
@@ -149,8 +149,8 @@
 .section-hero.parceiros-area {
   height: auto;
   padding-bottom: 100px;
-  background-image: url('../images/parceiros.jpg'), url('../images/triangle.svg'), -webkit-linear-gradient(270deg, #07688d, #00aeef);
-  background-image: url('../images/parceiros.jpg'), url('../images/triangle.svg'), linear-gradient(180deg, #07688d, #00aeef);
+  background-image: url('../images/parceiros-banner.jpg'), url('../images/triangle.svg'), -webkit-linear-gradient(270deg, #07688d, #00aeef);
+  background-image: url('../images/parceiros-banner.jpg'), url('../images/triangle.svg'), linear-gradient(180deg, #07688d, #00aeef);
   background-position: 50% 0px, 50% 50%, 0px 0px;
   background-size: cover, cover, auto;
 }
@@ -158,8 +158,8 @@
 .section-hero.historias {
   height: auto;
   padding-bottom: 100px;
-  background-image: url('../images/historias.jpg'), url('../images/triangle.svg'), -webkit-linear-gradient(270deg, #07688d, #00aeef);
-  background-image: url('../images/historias.jpg'), url('../images/triangle.svg'), linear-gradient(180deg, #07688d, #00aeef);
+  background-image: url('../images/historia-banner.jpg'), url('../images/triangle.svg'), -webkit-linear-gradient(270deg, #07688d, #00aeef);
+  background-image: url('../images/historia-banner.jpg'), url('../images/triangle.svg'), linear-gradient(180deg, #07688d, #00aeef);
   background-position: 50% 0px, 50% 50%, 0px 0px;
   background-size: cover, cover, auto;
 }
@@ -1402,7 +1402,7 @@ a.marcas.off.w-inline-block {
 
 .section-white.depoimentos {
   padding-bottom: 0px;
-  background-image: url('../images/depoimentos.jpg');
+  background-image: url('../images/home-depoimentos-banner.jpg');
   background-position: 100% 0px;
   background-size: auto;
   background-repeat: no-repeat;
@@ -1698,6 +1698,10 @@ a.marcas.off.w-inline-block {
 
 .div-testimonial-quote {
   padding-left: 50px;
+}
+
+.div-testimonial-quote .txtblocks-blue {
+    height: 105px;
 }
 
 .h1-medium {
@@ -2764,9 +2768,10 @@ a.marcas.off.w-inline-block {
 
 .section-cta._1 {
   height: 105px;
-  background-image: url('../images/pronto_01.png');
+  /* background-image: url('../images/pronto_01.png'); */
   background-position: 0px 0px;
   background-size: cover;
+  /* display: none; */
 }
 
 .section-cta._2 {
@@ -2783,15 +2788,15 @@ a.marcas.off.w-inline-block {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: -webkit-linear-gradient(0deg, transparent 16%, #00aeef 53%), url('../images/pronto_02.png');
-  background-image: linear-gradient(90deg, transparent 16%, #00aeef 53%), url('../images/pronto_02.png');
+  background-image: -webkit-linear-gradient(0deg, transparent 16%, #00aeef 53%), url('../images/cta-banner.png');
+  background-image: linear-gradient(90deg, transparent 16%, #00aeef 53%), url('../images/cta-banner.png');
   background-position: 0px 0px, 0px 0px;
   background-size: auto, cover;
 }
 
 .section-cta._3 {
   height: 302px;
-  background-image: url('../images/pronto_03.png');
+  /* background-image: url('../images/pronto_03.png'); */
   background-position: 0px 0px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2809,7 +2814,7 @@ a.marcas.off.w-inline-block {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url('../images/tri.svg'), url('../images/fundo-homem.png');
+  background-image: url('../images/tri.svg'), url('../images/home-parceiros-banner.png');
   background-position: -218px 50%, 100% 0px;
   background-size: 400px, cover;
   background-repeat: no-repeat, repeat;
@@ -3725,6 +3730,9 @@ html.w-mod-js *[data-ix="menu-hidden"] {
   .navbar-off.home.fixed {
     padding-right: 0px;
   }
+  .div-testimonial-quote .txtblocks-blue {
+      height: 155px;
+  }
 }
 
 @media (max-width: 479px) {
@@ -4605,6 +4613,25 @@ html.w-mod-js *[data-ix="menu-hidden"] {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+.div-experimente .form-resposta {
+    display: none;
+    margin-top: 15px;
+    background-color: #fff;
+    width: 50%;
+    border: 2px solid #ff0000;
+    padding: 5px 20px;
+    color: #094e69;
+    border-radius: 100px;
+}
+
+.div-experimente .form-resposta label {
+    margin-bottom: 0;
+}
+
+.form-cta.error {
+    border: 3px solid #ff0000;
 }
 
 @font-face {

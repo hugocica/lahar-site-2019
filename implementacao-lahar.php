@@ -694,7 +694,19 @@
                     <h2 class="h2 small _20">Transforme seu marketing digital em 15 dias. Não pedimos seu cartão!</h2>
                     <div class="spacer _30 w-hidden-tiny"></div>
                     <div class="form-field-menor w-form" data-ix="show-on-scroll">
-                        <form id="email-form" name="email-form" data-name="Email Form" data-redirect="/criar-conta" redirect="/criar-conta" class="form-cta w-clearfix"><input type="text" class="field-cta-email w-input" maxlength="256" name="email-2" data-name="Email 2" placeholder="Seu endereço de e-mail" id="email-2" required=""><input type="submit" value="Experimente grátis" data-wait="Carregando..." class="botoes-form w-button"></form>
+                        <form id="email-form" name="email-form" data-name="Email Form" class="form-cta w-clearfix">
+                            <input type="text" class="field-cta-email w-input" maxlength="256" name="email" data-name="Email" placeholder="Seu endereço de e-mail" id="email" required="">
+                            <button data-wait="Carregando..." class="botoes-form w-button try-btn" style="padding: 0">Experimente grátis</button>
+                        </form>
+                        <div class="w-form" id="mensagem_form" style="text-align: center; background-color:transparent; display:none; margin: 0;">
+                            <p style="margin-top: 15px; background-color: #fff; border: 2px solid #ff0000; padding: 5px 20px; color: #094e69; border-radius: 100px;"><strong>Atenção:</strong> o e-mail informado já possui conta cadastrada, por favor digite outro e-mail ou entre em contato conosco.</p>
+                        </div>
+                        <div class="w-form" id="mensagem_form_empty" style="text-align: center; background-color:transparent; display:none; margin: 0;">
+                            <p style="margin-top: 15px; background-color: #fff; border: 2px solid #ff0000; padding: 5px 20px; color: #094e69; border-radius: 100px;"><strong>Atenção:</strong> endereço de e-mail está vazio.</p>
+                        </div>
+                        <div class="w-form" id="mensagem_form_invalido" style="text-align: center; background-color:transparent; display:none;">
+                            <p style="margin-top: 15px; background-color: #fff; border: 2px solid #ff0000; padding: 5px 20px; color: #094e69; border-radius: 100px;"><strong>Atenção:</strong> O e-mail informado não é válido.</p>
+                        </div>
                         <div class="w-form-done">
                             <div>(LAHAR: integrar formulário)</div>
                         </div>

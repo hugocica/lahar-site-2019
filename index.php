@@ -34,10 +34,13 @@
                             <button data-wait="Carregando..." class="botoes-form w-button try-btn">Experimente grátis</button>
                         </form>
                         <div class="w-form" id="mensagem_form" style="background-color:transparent; display:none; margin: 0;">
-                            <p style="text-align:left; margin: 10px 0 0; padding: 5px 10px;background-color: #ff0000; color: #fff; font-weight: 700;">O e-mail informado já possui conta cadastrada, por favor digite outro e-mail ou entre em contato conosco.</p>
+                            <p style="margin-top: 15px; background-color: #fff; border: 2px solid #ff0000; padding: 5px 20px; color: #094e69; border-radius: 100px;"><strong>Atenção:</strong> o e-mail informado já possui conta cadastrada, por favor digite outro e-mail ou entre em contato conosco.</p>
+                        </div>
+                        <div class="w-form" id="mensagem_form_empty" style="background-color:transparent; display:none; margin: 0;">
+                            <p style="margin-top: 15px; background-color: #fff; border: 2px solid #ff0000; padding: 5px 20px; color: #094e69; border-radius: 100px;"><strong>Atenção:</strong> endereço de e-mail está vazio.</p>
                         </div>
                         <div class="w-form" id="mensagem_form_invalido" style="background-color:transparent; display:none;">
-                            <p style="text-align:left; margin-left:100px;">O e-mail informado não é válido.</p>
+                            <p style="margin-top: 15px; background-color: #fff; border: 2px solid #ff0000; padding: 5px 20px; color: #094e69; border-radius: 100px;"><strong>Atenção:</strong> O e-mail informado não é válido.</p>
                         </div>
                         <div class="w-form-done">
                             <div>(LAHAR: integrar formulário)</div>
@@ -918,7 +921,7 @@
     <div class="div-empresas" style="display: flex;align-items: center;justify-content: space-between;">
         <a href="https://www.totvs.com/" target="_blank" class="marcas off w-inline-block" data-ix="show-on-scroll"><img src="assets/images/totvs.png" width="130"></a>
         <a href="https://targetmais.com.br/" target="_blank" class="marcas off w-inline-block" data-ix="show-on-scroll"><img src="assets/images/targetmais.png" width="117"></a>
-        <a href="https://www.roihero.com.br/" target="_blank" class="marcas off w-inline-block" data-ix="show-on-scroll"><img src="assets/images/roihero.png" width="1750"></a>
+        <a href="http://b2midia.com.br/" target="_blank" class="marcas off w-inline-block" data-ix="show-on-scroll"><img src="assets/images/b2midia.png" width="1750"></a>
         <a href="https://eadplataforma.com/" target="_blank" class="marcas off w-inline-block" data-ix="show-on-scroll"><img src="assets/images/eadplataforma.png" width="100" style="margin-left: -17px;"></a>
         <a href="http://www.assobrav.com.br/" target="_blank" class="marcas off w-inline-block" data-ix="show-on-scroll"><img src="assets/images/assobrav.png" width="1750" style="min-width: 195px;"></a>
         <a href="https://www.jetecommerce.com.br/" target="_blank" class="marcas off w-inline-block" data-ix="show-on-scroll"><img src="assets/images/jet.jpg" width="95"></a>

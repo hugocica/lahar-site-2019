@@ -133,8 +133,7 @@
     // Snippet - Integração de conversões LAHAR
     function integra_api_lahar($token_api_lahar, $endpoint, $nome_formulario, $campos) {
 
-        // $endpoint_full_url = 'http://localhost/codebase-v2.1/api/'.$endpoint;
-        $endpoint_full_url = 'https://app.lahar.com.br/api/'.$endpoint;
+        $endpoint_full_url = APP_URL .'api/'.$endpoint;
 
         if ( $endpoint == 'conversions' ) {
             $method = 'POST';
@@ -171,7 +170,7 @@
                 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
                 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
                 $curl_response = curl_exec($ch);
-                
+
                 curl_close($ch);
                 $json = json_decode($curl_response);
 
